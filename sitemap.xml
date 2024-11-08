@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://gajimu.biz.id/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://www.gajimu.biz.id/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://gajimu.biz.id/</loc>
+<loc>https://www.gajimu.biz.id/</loc>
 </url>
 <url>
-<loc>https://gajimu.biz.id/10-pekerjaan-dengan-gaji-tertinggi-di-indonesia.html</loc>
+<loc>https://www.gajimu.biz.id/10-pekerjaan-dengan-gaji-tertinggi-di-indonesia.html</loc>
 <lastmod>2024-11-08T09:22:10+07:00</lastmod>
 <image:image>
-<image:loc>https://gajimu.biz.id/media/posts/9/10-Pekerjaan-dengan-Gaji-Tertinggi-di-Indonesia.jpg</image:loc>
+<image:loc>https://www.gajimu.biz.id/media/posts/9/10-Pekerjaan-dengan-Gaji-Tertinggi-di-Indonesia.jpg</image:loc>
 <image:title><![CDATA[10 Pekerjaan dengan Gaji Tertinggi di Indonesia]]></image:title>
 </image:image>
 </url>
 <url>
-<loc>https://gajimu.biz.id/about.html</loc>
+<loc>https://www.gajimu.biz.id/about.html</loc>
 <lastmod>2024-11-08T09:05:59+07:00</lastmod>
 </url>
 <url>
-<loc>https://gajimu.biz.id/contact.html</loc>
+<loc>https://www.gajimu.biz.id/contact.html</loc>
 <lastmod>2024-11-07T20:25:49+07:00</lastmod>
 </url>
 <url>
-<loc>https://gajimu.biz.id/disclaimer.html</loc>
+<loc>https://www.gajimu.biz.id/disclaimer.html</loc>
 <lastmod>2024-11-08T09:06:38+07:00</lastmod>
 </url>
 <url>
-<loc>https://gajimu.biz.id/privacy-policy.html</loc>
+<loc>https://www.gajimu.biz.id/privacy-policy.html</loc>
 <lastmod>2024-11-08T09:07:07+07:00</lastmod>
 </url>
 </urlset>
