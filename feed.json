@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Gajimu",
+    "description": "",
+    "home_page_url": "https://www.gajimu.biz.id",
+    "feed_url": "https://www.gajimu.biz.id/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Admin"
+    },
+    "items": [
+    ]
+}
