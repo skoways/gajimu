@@ -4,4 +4,4 @@ User-agent: GPTBot
 Disallow: /
 User-agent: *
 Disallow:
-Sitemap: https://www.gajimu.biz.id/sitemap.xml
+Sitemap: https://gajimu.biz.id/sitemap.xml
