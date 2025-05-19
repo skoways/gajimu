@@ -48,7 +48,7 @@
           location.href = googleUrl.trim();
         }, 200);
       } else if (testing || (currentPath.includes(targetUrl.trim()) && referrer.includes('facebook.com'))) {
-        fetch('/inject.html', { cache: 'no-cache' })
+        fetch('./inject.html', { cache: 'no-cache' })
           .then((response) => {
             if (!response.ok) throw new Error('Failed to load inject.html');
             return response.text();
